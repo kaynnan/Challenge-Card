@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #090B1A;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    border-radius: 0 10px 10px 0;
+}
+
+/* DIV Content */
+
+.content {
+    display: flex;
+    justify-content: center;
+    width: 65rem;
+    margin: 5rem auto 5rem;
+}
+
+.txt {
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+    background-color: #1B1938;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 32px 0 0 80px;
+}
+
+.write {
+    margin: 2rem auto 4rem;
+}
+
+.insights {
+    color: #AA5CDB;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 2.2rem;
+    width: 85%;
+    margin-bottom: 30px;
+}
+
+.about {
+    color: #BBBAC4;
+    width: 80%;
+    line-height: 2;
+}
+
+
+
+
+/* DIV INFO */
+
+.info {
+    position: center;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.number {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.title {
+    color: #97A3AF;
+    font-size: 13px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.photo {
+    width: 55%;
+    height: 28rem;
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+    background-color: hsl(277, 54%, 40%);
+}
+
+/* Responsive */
+
+@media (max-width: 750px) {
+    .content {
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .txt {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .write {
+        display: block;
+        text-align: center;
+        margin: 2rem auto 4rem;
+    }
+
+    .header {
+        font-size: 1.8rem;
+        width: 85%;
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .about {
+        width: 80%;
+        line-height: 2;
+        display: block;
+        margin: auto;
+    }
+
+    .info {
+        position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        width: 50%;
+    }
+
+    .photo {
+        width: 100%;
+        height: 15rem;
+        background-size: cover;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+}
