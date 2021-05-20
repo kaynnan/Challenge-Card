@@ -6,7 +6,7 @@
 
 Thanks for checking out this front-end coding challenge.
 
-[Available in](https://kaynnan.github.io/Challenge-Card/)
+Would you like to see how it turned out? [Access here](https://kaynnan.github.io/Challenge-Card/)
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
